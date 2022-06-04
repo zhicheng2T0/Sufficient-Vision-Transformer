@@ -2,7 +2,7 @@
 
 This is the official github repository for Sufficient Vision Transformer.
 
-For codes for ImageNet experiment, please go to /ImageNet
+For codes on ImageNet experiments, please go to /ImageNet
 		
 	ImageNet checkpoints available at: https://drive.google.com/drive/folders/1LmLw9Hhx2-uFpAL39k-ptPksjEsM1VWx?usp=sharing
 	
