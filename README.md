@@ -18,6 +18,44 @@ The figure below demonstrates the architecture of a Sufficiency Block
 The formulation of Sufficient Reduction Loss is demonstrated below
 ![alt text](https://github.com/zhicheng2T0/Sufficient-Vision-Transformer/blob/main/srloss.PNG)
 
+# Key results
+
+Key results on ImageNet:
+
+	Suf-T2T-ViT-ti (FLOPs=1.2B, Params=7.6M), Top1-acc=73.3%
+
+	Suf-ViT-ti (FLOPs=1.24B, Params=11.5M), Top1-acc=75.6%
+	
+	Suf-PVT-ti (FLOPs=1.9B, Params=13.2M), Top1-acc=75.6%
+
+Performance of corresponding baselines:
+
+	T2T-ViT-7 (FLOPs=1.2B, Params=4.3M), Top1-acc=71.7%	
+	
+	DeiT-ti (FLOPs=1.3B, Params=5.7M), Top1-acc=72.2%
+	
+	PVT-ti (FLOPs=1.9B, Params=13.2M), Top1-acc=74.8%
+	
+Key results on ImageNet-C (mCE indicates Mean Corruption Error, lower mCE indicates better robustness):
+
+	DeiT-ti (FLOPs=1.2B, Params=4.3M), Top1-acc=72.2%, mCE=72.9%
+	
+	KVT-ti  (FLOPs=1.3B, Params=5.7M), Top1-acc=73.0%, mCE=72.0%
+	
+	DWT-ViT-ti  (FLOPs=1.4B, Params=10.6M), Top1-acc=74.2%, mCE=69.0%
+	
+	PVT-ti  (FLOPs=1.9B, Params=13.2M), Top1-acc=74.8%, mCE=77.7%
+	
+	ConViT-ti  (FLOPs=1.4B, Params=5.7M), Top1-acc=73.3%, mCE=68.4%
+	
+	DeiT-ti-Augmix  (FLOPs=1.3B, Params=5.7M), Top1-acc=72.4%, mCE=67.7%
+	
+	Suf-ViT-ti  (FLOPs=1.24B, Params=11.5M), Top1-acc=75.6%, mCE=63.6%
+
+Performance of Suf-ViT and various baseline models on ImageNet corrupted by CIFAR-10 images as corruption at different norms:
+
+
+
 # Acknowledgement
 
 This work was supported in part by the Australian Research Council under Project DP210101859 and the University of Sydney SOAR Prize.
