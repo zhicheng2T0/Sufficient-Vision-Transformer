@@ -2,6 +2,11 @@
 
 This is the official github repository for Sufficient Vision Transformer.
 
+# Introduction
+Currently, Vision Transformer (ViT) and its variants have demonstrated promising performance on various computer vision tasks. Nevertheless, task-irrelevant information such as background nuisance and noise in patch tokens would damage the performance of ViT-based models. In this paper, we develop Sufficient Vision Transformer (Suf-ViT) as a new solution to address this issue. In our research, we propose the Sufficiency-Blocks (S-Blocks) to be applied across the depth of Suf-ViT to disentangle and discard task-irrelevant information accurately. Besides, to boost the training of Suf-ViT, we formulate a Sufficient-Reduction Loss (SRLoss) leveraging the concept of Mutual Information (MI) that enables Suf-ViT to extract more reliable sufficient representations by removing task-irrelevant information. 
+
+# Train Models from scratch
+
 For codes on ImageNet experiments, please go to /ImageNet
 		
 	ImageNet checkpoints available at: https://drive.google.com/drive/folders/1LmLw9Hhx2-uFpAL39k-ptPksjEsM1VWx?usp=sharing
