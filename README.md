@@ -54,6 +54,11 @@ Key results on ImageNet-C (mCE indicates Mean Corruption Error, lower mCE indica
 
 Performance of Suf-ViT and various baseline models on ImageNet corrupted by CIFAR-10 images as corruption at different norms:
 
+![alt text](https://github.com/zhicheng2T0/Sufficient-Vision-Transformer/blob/main/cifar_corruption.PNG)
+
+Performance of Suf-ViT and various baseline models on ImageNet corrupted by adversarial noise (generated using FGSM) at different norms:
+
+![alt text](https://github.com/zhicheng2T0/Sufficient-Vision-Transformer/blob/main/fgsm_corruption.PNG)
 
 
 # Acknowledgement
