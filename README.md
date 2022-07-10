@@ -10,7 +10,7 @@ To boost ViT-based model robustness and performance, we propose the design of Su
 on the task but has task-irrelevant information maximally removed. By making predictions based on such sufficient representations, the performance of Suf-ViT can be boosted by having less influence by task-irrelevant information.
 
 The figure below demonstrates the overall architecture of a Sufficient Vision Transformer
-![alt text](https://github.com/zhicheng2T0/Sufficient-Vision-Transformer/blob/main/sufvit.PNG)
+![alt text](https://github.com/zhicheng2T0/Sufficient-Vision-Transformer/blob/main/sufvit2.PNG)
 
 The figure below demonstrates the architecture of a Sufficiency Block
 ![alt text](https://github.com/zhicheng2T0/Sufficient-Vision-Transformer/blob/main/sblock.PNG)
