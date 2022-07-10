@@ -15,8 +15,25 @@ The figure below demonstrates the overall architecture of a Sufficient Vision Tr
 The figure below demonstrates the architecture of a Sufficiency Block
 ![alt text](https://github.com/zhicheng2T0/Sufficient-Vision-Transformer/blob/main/sblock.PNG)
 
-The figure below demonstrates the formulation of Sufficient Reduction Loss
+The formulation of Sufficient Reduction Loss is demonstrated below
 ![alt text](https://github.com/zhicheng2T0/Sufficient-Vision-Transformer/blob/main/srloss.PNG)
+
+# Acknowledgement
+
+This work was supported in part by the Australian Research Council under Project DP210101859 and the University of Sydney SOAR Prize.
+
+
+# Citation
+If you find our work to be useful for your research, please consider citing:
+
+	@InProceedings{sufvit,
+		author    = {Cheng, Zhi and Su, Xiu and Wang, Xueyu and You, Shan and Xu, Chang},
+		title     = {Sufficient Vision Transformer},
+		booktitle = {28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '22), Washington, DC, USA, ACM, New York, NY, USA, 11 pages},
+		url       = {https://doi.org/10.1145/3534678.3539322},
+		month     = {August 14-18},
+		year      = {2022}
+	}
 
 
 # Train Models from scratch
